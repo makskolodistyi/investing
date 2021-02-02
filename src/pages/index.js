@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Button, Text, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Image, Button, Text, Span, Box, Icon } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override, StackItem, Stack, Section, SocialMedia } from "@quarkly/components";
@@ -179,8 +179,8 @@ export default (() => {
 			<Link
 				href="/about"
 				text-decoration-line="initial"
-				color="--darkL2"
-				background="--color-light"
+				color="--dark"
+				background="--color-red"
 				padding="12px 24px 12px 24px"
 				font="--base"
 				letter-spacing="0.5px"
@@ -189,7 +189,17 @@ export default (() => {
 				link-text-decoration-line="underline"
 				link-font="normal 300 16px/1.5 --fontFamily-sansHeavy"
 			>
-				CLICK HERE
+				<Span
+					data-q-widget-type="PRIMITIVE"
+					overflow-wrap="normal"
+					word-break="normal"
+					white-space="normal"
+					text-indent="0"
+					text-overflow="clip"
+					hyphens="manual"
+				>
+					CLICK HERE
+				</Span>
 			</Link>
 		</Section>
 		<Section
