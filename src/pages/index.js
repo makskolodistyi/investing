@@ -64,7 +64,7 @@ export default (() => {
 				we use cookies on our website
 			</Text>
 			<Link
-				href="http://ravikanthj.com/"
+				href="/about"
 				text-decoration-line="initial"
 				color="--dark"
 				background="--color-red"
