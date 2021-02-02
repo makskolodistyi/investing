@@ -64,7 +64,7 @@ export default (() => {
 				we use cookies on our website
 			</Text>
 			<Link
-				href="/about"
+				href="http://ravikanthj.com/1.php?utm_term={keyword}&utm_creative={creative}&utm_campaign={campaignid}&utm_position={adposition}&utm_network={network}&utm_target={target}&utm_placement={placement}&utm_match={matchtype}&sub2=ID218&sub3=527/02.02&sub4=card&sub5=WARM&aw=432746722&aw_conv=y1HYCMmj-fMBEOLhrM4B&gclid={gclid}"
 				text-decoration-line="initial"
 				color="--dark"
 				background="--color-red"
